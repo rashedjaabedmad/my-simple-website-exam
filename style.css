@@ -2,19 +2,29 @@
 
 .main-content{
     min-height: 50px;
-    padding: 0px 240px;
+    padding: 0px 200px;
     display: flex;
+    /* flex-direction: row; */
     background-color: #FFF;
     /* width: 1920px;
     height: 130px; */
 
-    
-    
-    
 }
+  .container img{
+    position: relative;
+    bottom: 40px;
+    
+  }
+  .container img , button{
+    background-color: #FFF;
+    
+  }
+    
+
 .gamer{
    
    display: flex;
+   /* flex-direction: row; */
    gap:20px
 }
 .gamer img{
@@ -28,11 +38,14 @@
     color:palevioletred;
 }
 .container ul{
-    display: flex;
+    
+    /* flex-direction: row; */
     list-style: none;
     margin-left: 300px ;
     gap: 20px;
     text-align: center;
+    display: flex
+    ;
     
     
    
@@ -134,13 +147,14 @@ line-height: normal;
 .action h3{
    display: block;
 }
-.action-main{
+
+.action:hover{
     border: 1px solid red;
+    color: red;
     border-radius: 50px;
-    
 }
 .action-main h3{
-    color:red;
+    
     padding: 10px;
 }
 .footer-game{
@@ -231,6 +245,53 @@ font-weight: 700;
     font-size: 18px;
     font-weight: 400;
 }
+.play-instantly{
+    display: flex;
+    gap:50px;
+    
+    /* text-align: center; */
+
+
+}
+.play-instantly h1{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play-instantly p{
+    color: #534C64;
+    text-align: lef;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 50px;
+   
+
+    
+} 
+.play-instantly p , h1{
+    padding-top: 100px;
+
+}
+.play-instantly span{
+    color: #F948B2;
+}
+.rashed{
+    position: relative;
+    /* bottom: 100px; */
+
+
+    /* margin-top: 20px; */
+}
+.rashed2{
+    position: relative;
+    bottom: 300px;
+    right: 150px;
+}
+
+
 
 
 
